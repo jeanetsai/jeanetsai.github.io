@@ -1,0 +1,100 @@
+/*NEWSFLASH*/
+.pl-category
+{
+	color: #59595A !important;
+	font-weight: normal !important;
+}
+A.pl-title
+{
+	text-decoration: underline;
+	text-transform: none !important;
+	font-weight: normal !important;
+}
+UL.pl_handles LI A
+{
+	margin-top: -10px !important;
+	margin: 0px;
+}
+/*SHOWNEWS COLOR*/
+.well._color1 .pl-title, .well._color2 .pl-title, .well._color3 .pl-title, .well._color4 .pl-title, .well._color5 .pl-title
+{
+	color: #FFFFFF !important;
+	text-decoration: underline;
+}
+.well._color1 .pl-category, .well._color2 .pl-category, .well._color3 .pl-category, .well._color4 .pl-category, .well._color5 .pl-category
+{
+	color: #FFFFFF !important;
+	text-decoration: underline;
+}
+.pl-cs .pl-inner A
+{
+	text-decoration: underline !important;
+}
+/*DROPDOWN*/
+.plus-toggle
+{
+	font-weight: normal;
+}
+.plus-element H4
+{
+	display: none;
+}
+.plus-accordion-default > .plus-toggler
+{
+	background: url(../images/dropdown/close.png) no-repeat center right !important;
+	border-bottom: 1px dotted #DDDDDD !important;
+	text-transform: none;
+	height: auto !important;
+	font-size: 100% !important;
+}
+.plus-accordion-default > .plus-toggler SPAN.plus-title
+{
+	padding-left: 0px !important;
+}
+.plus-accordion-default .plus-active
+{
+	background: url(../images/dropdown/open.png) no-repeat center right !important;
+}
+.plus-element IMG
+{
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+/*TABS*/
+.tabs_buttons
+{
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.plustab-title
+{
+	text-transform: inherit !important;
+	font-size: inherit !important;
+	color: #666666;
+}
+UL.tabs_container LI.tab.active SPAN
+{
+	color: #999999 !important;
+}
+UL.tabs_container LI.tab
+{
+	margin-bottom: 5px !important;
+}
+/*LOGIN REGISTER MODULE*/
+#login_register_module
+{
+}
+#login_register_module .plus-userpanel
+{
+}
+#login_register_module .plus-button A
+{
+	font-size: 10pt;
+	font-weight: normal;
+	color: #CCCCCC;
+	text-decoration: underline;
+}
+#login_register_module .plus-button A:hover
+{
+	text-decoration: none;
+}

@@ -1,0 +1,132 @@
+/*DISABLE DROPDOWN LIST FOR SMALL DEVICES*/
+#hor_nav SELECT
+{
+	display: none;
+}
+/*GENERAL*/
+#hor_nav
+{
+	position: relative;
+	min-height: 46px;
+	background-image: url(../images/menu_img/nav_bg_default.png);
+	background-repeat: repeat;
+	border-bottom: 0px;
+	display: inline-block;
+}
+/*EXPAND INLINE BLOCK 100%*/
+#hor_nav
+{
+	width: 100%;
+}
+#hor_nav UL
+{
+	margin: 0;
+}
+#hor_nav LI
+{
+	list-style: none;
+	float: left;
+	padding-left: 0;
+	height: 46px;
+	position: relative;
+	background-image: none;
+	background-repeat: inherit;
+	background-position: center right;
+	margin-right: 0px;
+}
+#hor_nav LI A
+{
+	display: block;
+	padding: 0 15px;
+	line-height: 46px;
+	color: #FFF;
+	border-right: 0px;
+	font-size: 15px;
+	background-image: none;
+	background-repeat: repeat-x;
+	background-position: center right;
+	text-transform: inherit;
+	font-weight: inherit;
+}
+#hor_nav LI.active A
+{
+	background-color: transparent;
+	color: inherit;
+	background-image: none;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+#hor_nav LI A:hover, #hor_nav LI:hover A, #hor_nav LI.sfHover A
+{
+	background: #2E2E2E;
+	text-decoration: none;
+}
+/*FIRST ACTIVE RADIUS*/
+#hor_nav .active.first A
+{
+}
+#hor_nav LI A:hover, #hor_nav LI:hover A, #hor_nav LI.sfHover A
+{
+	color: #666666;
+}
+#hor_nav LI UL
+{
+	position: absolute;
+	width: auto;
+	left: -999em;
+	margin-left: -1px;
+	border: 0;
+	border-top: 0;
+	z-index: 20000;
+}
+#hor_nav LI UL UL
+{
+	margin: -31px 0 0 100%;
+}
+#hor_nav LI:hover UL UL, #hor_nav LI:hover UL UL UL, #hor_nav LI:hover UL UL UL UL, #hor_nav LI.sfHover UL UL, #hor_nav LI.sfHover UL UL UL, #hor_nav LI.sfHover UL UL UL UL
+{
+	left: -999em;
+}
+#hor_nav LI LI
+{
+	padding: 0;
+	height: auto;
+	background: #FFF;
+	min-width: 100%;
+	white-space: nowrap;
+	width: auto;
+	z-index: 1100;
+}
+#hor_nav LI LI A, #hor_nav LI LI.active A, #hor_nav LI LI A:hover
+{
+	margin: 0;
+	height: 30px;
+	line-height: 30px;
+	background: inherit;
+	color: #FFFFFF;
+}
+#hor_nav LI LI A, #hor_nav LI.active LI A
+{
+	font-weight: normal;
+}
+#hor_nav LI:hover UL, #hor_nav LI.sfHover UL
+{
+	left: 1px;
+}
+#hor_nav LI LI:hover UL, #hor_nav LI LI LI:hover UL, #hor_nav LI LI LI LI:hover UL, #hor_nav LI LI.sfHover UL, #hor_nav LI LI LI.sfHover UL, #hor_nav LI LI LI LI.sfHover UL
+{
+	left: 0;
+}
+/*PARENT DROPDOWN ITEMS*/
+#hor_nav .deeper.parent .dropdown-toggle .caret
+{
+	border-top-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	margin-top: 22px;
+	margin-left: 3px;
+}
+/*SUBMENU  ACTIVE  RADIUS - DO NOT CHANGE THIS*/
+#hor_nav .deeper.parent UL LI
+{
+	border-radius: 0px;
+}

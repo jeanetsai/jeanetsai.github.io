@@ -1,0 +1,173 @@
+.plus-userpanel
+{
+	float: right;
+}
+.plus-panels-wrapper
+{
+	position: relative;
+}
+.plus-userpanel, .plus-userpanel .plus-button
+{
+	position: relative;
+	z-index: 102;
+}
+.plus-panels-wrapper > DIV
+{
+	float: left;
+	position: relative;
+}
+.plus-userpanel .plus-button
+{
+	color: #555555;
+	display: block;
+	font-size: 10px;
+	line-height: 28px !important;
+	padding: 0 10px !important;
+	text-decoration: none;
+}
+.plus-userpanel .plus-panels-wrapper DIV A:hover
+{
+	background: none;
+}
+.plus-userpanel .plus-panels-wrapper DIV.active
+{
+	background: #FBFBFB;
+	border: none;
+	border-bottom: none;
+}
+.plus-panels-wrapper .plus-panel
+{
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+	overflow: hidden;
+	z-index: 100;
+	top: 28px;
+	box-shadow: 0 2px 4px #999999;
+	-moz-box-shadow: 0 2px 4px #999999;
+	-webkit-box-shadow: 0 2px 4px #999999;
+}
+.plus-panels-wrapper .plus-panel .panel-wrapper
+{
+	background: #FBFBFB;
+	border: none;
+	padding: 20px 12px;
+	text-align: left;
+	border-bottom-width: medium;
+	min-height: 76px;
+	z-index: 1001;
+}
+#sbox-content .plus-panel
+{
+	display: block;
+	position: relative;
+	background: none;
+	border: 0;
+}
+.plus-userpanel .plus-button DIV
+{
+	float: left;
+	padding: 0 0px;
+	font-weight: bold;
+	cursor: hand;
+	cursor: pointer;
+	position: relative;
+}
+#plus-login-panel
+{
+	width: 320px;
+}
+#plus-register-panel
+{
+	width: 460px;
+}
+#plus-logout-panel
+{
+	width: 300px;
+}
+.panel-wrapper H3
+{
+	border-bottom: none;
+	font-size: 21px;
+	margin: 0 0 20px;
+	text-align: left;
+}
+.plus-pnlogin UL
+{
+	border-top: none;
+	margin: 22px 0 10px;
+	padding: 2px 0 0;
+}
+.plus-pnlogin UL LI
+{
+	float: left;
+	font-size: 11px;
+	background: none;
+	list-style: none;
+	padding-top: 6px;
+	padding-right: 12px;
+	padding-left: 0;
+}
+.plus-pnlogin UL LI:first-child
+{
+	margin-right: 10px;
+}
+.plus-pnlogin UL LI A
+{
+	background: none;
+}
+.plus-pnlogin LABEL
+{
+	font-size: 12px;
+}
+.panel-wrapper DL DT:first-child
+{
+	font-size: 10px;
+	display: block;
+	width: 100%;
+}
+.panel-wrapper DT
+{
+	float: left;
+	width: 35%;
+	clear: both;
+}
+.panel-wrapper DT, .panel-wrapper DD
+{
+	line-height: 41px;
+	height: 35px;
+	text-align: left;
+}
+.plus-pnregister FIELDSET
+{
+	padding: 0 0 24px;
+}
+.plus-pnregister LABEL
+{
+	padding: 0 0 0 2px;
+	font-size: 12px;
+}
+.plus-pnregister > DIV
+{
+	line-height: 30px;
+}
+.plus-pnregister > DIV > BUTTON
+{
+	margin-right: 12px;
+}
+.plus-pnregister > DIV A
+{
+	text-decoration: underline;
+}
+.panel-wrapper INPUT[type="text"], .panel-wrapper INPUT[type="password"]
+{
+	display: block;
+	width: 220px;
+	height: 20px;
+}
+.panel-wrapper INPUT[type="text"], .panel-wrapper INPUT[type="password"], .panel-wrapper INPUT[type="email"]
+{
+	width: 250px;
+	height: 20px;
+}

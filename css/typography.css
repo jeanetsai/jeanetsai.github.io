@@ -1,0 +1,130 @@
+P
+{
+	line-height: 18px;
+}
+.componentheading, H1
+{
+	font-size: 22pt;
+	line-height: 24px;
+}
+H2
+{
+	font-size: 18px;
+	line-height: 24px;
+}
+H3
+{
+	font-size: 16px;
+}
+H4
+{
+	font-size: 14px;
+}
+H5, H6
+{
+	font-weight: bold;
+	font-size: 12px;
+}
+H1, H2, H3, H4, H5, H6, .componentheading
+{
+	font-weight: normal;
+	margin: 5px 0 10px;
+	color: #1B1B1B;
+}
+H1, H2, H3
+{
+	line-height: 100%;
+}
+BLOCKQUOTE
+{
+	border: none;
+	padding: 0;
+}
+BLOCKQUOTE P
+{
+	font-size: 13px;
+	font-family: Arial;
+	font-style: italic;
+}
+.text-drop-cap::first-letter
+{
+	float: left;
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 20px;
+	margin: 8px 5px 0 0;
+	text-transform: uppercase;
+	color: #7E7E7E;
+}
+/*Table*/
+.table-heading TBODY TR:first-child TD, .table-heading TBODY TR:first-child TH
+{
+	background-color: #E2E2E2;
+}
+.table-striped TBODY TR:nth-child(2n+1) TD, .table-striped TBODY TR:nth-child(2n+1) TH
+{
+	background-color: #E2E2E2;
+}
+.table-striped TBODY TR:nth-child(2n) TD, .table-striped TBODY TR:nth-child(2n) TH
+{
+	background-color: #F0F0F0;
+}
+.table TBODY TR:hover TD, .table TBODY TR:hover TH
+{
+	background-color: #C8C8C8;
+}
+.box-content
+{
+	margin: 10px 0 15px;
+	padding: 20px;
+	border: 1px solid #C6C6C6;
+}
+.box-note
+{
+	margin: 10px 0 15px;
+	padding: 20px;
+	background: #EFEFEF;
+	border: 1px solid #C6C6C6;
+}
+.box-info, .box-download, .box-hint
+{
+	min-height: 22px;
+	padding: 8px 8px 8px 28px;
+	line-height: 24px;
+	margin: 5px 15px;
+}
+.box-info
+{
+	background: url("../images/icons/typo/info.png") no-repeat 2px center;
+}
+.box-download
+{
+	background: url("../images/icons/typo/download.png") no-repeat 2px center;
+}
+.box-hint
+{
+	background: url("../images/icons/typo/star.png") no-repeat 2px center;
+}
+.the-arrow > LI, .the-check > LI, .the-dot > LI, .the-plus > LI
+{
+	padding: 3px 0 0 20px;
+	background-image: url("../images/icons/typo/list-style.png");
+	background-repeat: no-repeat;
+	list-style: none;
+}
+.the-arrow > LI
+{
+	background-position: -16px -49px;
+}
+.the-check > LI
+{
+	background-position: 0px -70px;
+}
+.the-dot > LI
+{
+	background-position: -25px -32px;
+}
+.the-plus > LI
+{
+	background-position: -41px -16px;
+}

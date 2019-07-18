@@ -1,0 +1,66 @@
+/*BUTTON*/
+.btn-primary
+{
+	background-position: left top;
+	background-repeat: repeat-x;
+	background-color: transparent !important;
+	background-image: url(../images/button.png) !important;
+	border: 1px solid #BBBBBB !important;
+}
+.btn-primary:hover
+{
+	background-image: none;
+	background-color: #999999;
+	border: 1px solid #BBBBBB !important;
+}
+/*PAGE HEADER MARGIN BOTTOM (DISABLED) DEFAULT=(DELETE)*/
+.content-links
+{
+	display: none;
+}
+/*BUTTON*/
+.well INPUT[type="text"]
+{
+	width: 60%;
+}
+.well INPUT[type="password"]
+{
+	width: 60%;
+}
+/*GOOGLE MAP*/
+.well .mod-jgmap
+{
+	width: auto !important;
+}
+/*PAGINATION*/
+.pagenav
+{
+	min-height: 30px;
+	padding-top: 7px;
+}
+.pagenav LI
+{
+	padding: 5px 10px;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+}
+.pagenav-prev
+{
+	list-style: none;
+	float: left;
+}
+.pagenav-next
+{
+	float: right;
+	list-style: none;
+}
+/*PRINT/ EMAIL*/
+.btn-group.actions .btn.print-icon
+{
+	border: 0px;
+	margin-right: 4px;
+}
+.btn-group.actions .btn.email-icon
+{
+	border: 0px;
+}

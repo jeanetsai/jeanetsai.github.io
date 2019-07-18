@@ -1,0 +1,26 @@
+/*LAYOUTS HEADER*/
+#layouts_header
+{
+	padding-bottom: 10px;
+	background-color: #333333;
+}
+/*LAYOUTS CONTENT*/
+#layouts_content
+{
+	padding-bottom: 10px;
+}
+/*LAYOUTS FOOTER*/
+#layouts_footer
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*GENERAL*/
+.container_nav_outer
+{
+	padding-top: 10px;
+}
+#slide_panel
+{
+	float: right;
+}

@@ -10,5 +10,5 @@ About this version (20190719)
 1. A mockup has been updated 
 2. The links will be updated in a few days (csv --> html table)
 3. Related keyword sets are listed and will be uploaded
-4. 計畫新增: 更多 MOOC 網站 眾包群募及市調資訊
+4. 計畫新增: 更多 MOOC 網站 (磨課師 Hahow 好學校 Skillshare...) 眾包群募及市調資訊
 5. 計畫新增: 改良資料顯示方式

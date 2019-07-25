@@ -5,6 +5,12 @@ https://jeanetsai.github.io/tyod
 
 Project status 
 
+
+------------------------------
+About this version (20190725)
+------------------------------
+1. 新增: 部分 CSV/JSON 鏡像檔及 AJAX 動態載入
+
 ------------------------------
 About this version (20190723)
 ------------------------------

@@ -7,6 +7,14 @@ Project status
 
 
 ------------------------------
+About this version (20190728)
+------------------------------
+1. 新增: 部分 CSV/JSON 鏡像檔及 AJAX 動態載入，包括食物銀行、愛心店家、修惜站
+2. 新增: Registering domains and planning for search engine optimization
+註冊網域及 SEO 地圖規劃
+
+
+------------------------------
 About this version (20190726)
 ------------------------------
 1. 新增: 部分 CSV/JSON 鏡像檔及 AJAX 動態載入，包括兒少福利單位、高風險關懷家庭、慈善團體名單

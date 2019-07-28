@@ -10,7 +10,7 @@ About this version (20190728)
 ------------------------------
 1. 新增: 部分 CSV/JSON 鏡像檔及 AJAX 動態載入，包括桃園市政府智慧福利雲、食物銀行、愛心店家、修惜站
 2. 新增: Registering domains and planning for search engine optimization
-註冊網域 http://moneytyod.com/ 及 SEO 地圖規劃
+註冊網域 http://moneytyod.com/ 及 SEO 規劃中
 3. 提交至搜尋引擎 (http://www.google.com/ping?sitemap=https://moneytyod.com/sitemap.xml)
 
 

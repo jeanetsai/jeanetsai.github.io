@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>桃園弱勢學生福利網開放資料內容</title>
+		<script src="js/jquery.min.3.1.0.dynamictable.js"></script>
+		<link rel="stylesheet" href="css/bootstrap.min.inmyload.css" />
+		<script src="js/bootstrap.min.inmyload.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="table-responsive">
+				<br />
+				<h1>原始開放資料 修惜站(巨大傢俱再生)資訊</h1> <!--靆-->
+				<h3><a target="_blank"  href="https://data.tycg.gov.tw/opendata/datalist/search?allText=修惜站">開放資料連結</a></h3>
+				<br /><!--靆-->
+									<div>
+						<button type="button" name="load_data" id="load_data" class="btn btn-info">動態載入資料 (如未能載入請按上方連結)</button>
+					</div>
+					<br />
+					<div id="employee_table">
+					</div>
+				
+	<!--靆-->			
+
+<script>
+$(document).ready(function(){
+	$('#load_data').click(function(){
+		$.ajax({
+			url:"csv/599_FURNITUREutf8.csv",
+			dataType:"text",
+			
+			success:function(data)
+			{
+			console.log(data);
+				var employee_data = data.split(/\r?\n|\r/);
+				var table_data = '<table class="table table-bordered table-striped">';
+				for(var count = 0; count<employee_data.length; count++)
+				{
+					var cell_data = employee_data[count].split(",");
+					table_data += '<tr>';
+					for(var cell_count=0; cell_count<cell_data.length; cell_count++)
+					{
+						if(count === 0)
+						{
+							table_data += '<th>'+cell_data[cell_count]+'</th>';
+						}
+						else
+						{
+							table_data += '<td>'+cell_data[cell_count]+'</td>';
+						}
+					}
+					table_data += '</tr>';
+				}
+				table_data += '</table>';
+				$('#employee_table').html(table_data);
+			}
+			
+		});
+	});
+	
+});
+</script>				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+		
+				<div class="col-md-3">
+
+				</div>
+				<div class="col-md-9" style="min-height:900px;">
+
+				</div>
+				<div style="clear:both"></div>
+			</div>
+		</div>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-87739877-1', 'auto');
+		  ga('send', 'pageview');
+
+		</script>
+	</body>
+</html>

@@ -10,7 +10,8 @@ About this version (20190728)
 ------------------------------
 1. 新增: 部分 CSV/JSON 鏡像檔及 AJAX 動態載入，包括食物銀行、愛心店家、修惜站
 2. 新增: Registering domains and planning for search engine optimization
-註冊網域及 SEO 地圖規劃
+註冊網域 http://moneytyod.com/ 及 SEO 地圖規劃
+3. 提交至搜尋引擎 (ping:http://www.google.com/ping?sitemap=https://moneytyod.com/sitemap.xml)
 
 
 ------------------------------

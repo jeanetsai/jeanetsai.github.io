@@ -23,7 +23,7 @@ About this version (20190726)
 ------------------------------
 About this version (20190723)
 ------------------------------
-1. 新增: 現金返利 Make money from cashback
+1. 新增: 現金返利 Cashback solutions and Customer Loyalty Programs
 2. 新增: 圖庫連結 打工頁面 Photostocks and recruiting solutions
 3. 新增: 衛福部男性關懷專線
 4. 新增: 共享經濟項目 Shared economy

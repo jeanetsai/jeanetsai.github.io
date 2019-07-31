@@ -4,6 +4,11 @@
 
 Project status 
 
+------------------------------
+About this version (20190731)
+------------------------------
+1. 新增: 教育部教育雲
+2. 新增: 以物易物資訊 直播資訊 OBS twitch facebook youtube periscope 17 
 
 ------------------------------
 About this version (20190730)

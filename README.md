@@ -7,9 +7,10 @@ Project status
 ------------------------------
 About this version (20190801)
 ------------------------------
-1. 新增: 群募 summary
-2. 新增: 教育部教育雲
-3. 新增: 以物易物資訊 直播資訊 OBS twitch facebook youtube periscope 17 
+1. 新增: Be my eyes 盲人專用 APP
+2. 新增: 群募 summary
+3. 新增: 教育部教育雲
+4. 新增: 以物易物資訊 直播資訊 OBS twitch facebook youtube periscope 17 
 
 ------------------------------
 About this version (20190730)

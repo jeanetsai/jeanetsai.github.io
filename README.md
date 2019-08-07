@@ -8,7 +8,8 @@ Project status
 About this version (20190807)
 ------------------------------
 1. 預計新增: 天災預防開放資料
-2. Resolving issues: SSL verification
+2. 新增: 免費人工智慧音樂 Mubert 音樂永不重複
+3. Resolving issues: SSL verification
 ------------------------------
 About this version (20190802)
 ------------------------------

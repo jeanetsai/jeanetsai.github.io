@@ -6,7 +6,7 @@
 
 
 Project status 
-- 5:11 To him be the power for ever and ever.-
+~ 5:11 To him be the power for ever and ever.
 ------------------------------
 About this version (20200703)
 ------------------------------

@@ -31,11 +31,11 @@ About this version (20190812)
 About this version (20190807)
 ------------------------------
 1. 預計新增: 天災預防開放資料
-2. 新增: 免費人工智慧音樂 Mubert 音樂永不重複
+2. 新增: 人工智慧 Mubert 
 ------------------------------
 About this version (20190802)
 ------------------------------
-1. 新增: Be my eyes 盲人專用 APP
+1. 新增: 盲人專用 APP
 2. 新增: 群募 summary
 3. 新增: 教育部教育雲
 4. 新增: 以物易物資訊 直播資訊 OBS twitch facebook youtube periscope 17 

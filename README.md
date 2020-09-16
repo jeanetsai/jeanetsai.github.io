@@ -1,4 +1,4 @@
-桃園弱勢學生福利主網站 已註冊域名 http://www.moneytyod.com/
+#桃園弱勢學生福利主網站 已註冊域名 http://www.moneytyod.com/
 
 誌謝：感謝全體評審、優秀的團隊以及親切的媒體記者
 
